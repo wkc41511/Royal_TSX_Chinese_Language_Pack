@@ -1,29 +1,31 @@
 # Royal_TSX_Chinese_Language_Pack
-Royal_TSX的简体中文汉化包，适用于macOS系统。汉化过程中，以谷歌汉化为主，真人汉化为辅，如有汉化不准确的地方，欢迎大家提出改正。
+Royal_TSX的繁體中文漢化包，適用於macOS系統。漢化過程中，以谷歌漢化為主，真人漢化為輔，如有漢化不準確的地方，歡迎大家提出改正。
 
-## 一、适用平台
+目前是Clone過來之後轉繁體，後面有空會修正為繁體習慣用語。
 
-本中文汉化包是为Royal_TSX制作而成，适用于MACOS版本的Royal_TSX。
+## 一、適用平台
+
+本中文漢化包是為Royal_TSX製作而成，適用於MACOS版本的Royal_TSX。
 
 ## 二、使用方法
 
-### 1、主程序汉化
+### 1、主程序漢化
 
-1. 使用finder（访达）打开应用程序文件夹，找到Royal TSX 应用。
-2. 在Royal TSX 应用图标上面点击右键，点击“显示包内容”。
-3. 依次进入“Contents”>“Resources”文件夹。
-4. 把本项目目录“Main Application”下面的“zh_Hans.lproj”复制到“Resources”文件夹内。
-5. 关闭Royal TSX 程序，并重新启动应用即可。
+1. 使用finder（訪達）打開應用程序文件夾，找到Royal TSX 應用。
+2. 在Royal TSX 應用圖標上面點擊右鍵，點擊「顯示包內容」。
+3. 依次進入「Contents」>「Resources」文件夾。
+4. 把本項目目錄「Main Application」下面的「zh_Hans.lproj」複製到「Resources」文件夾內。
+5. 關閉Royal TSX 程序，並重新啓動應用即可。
 
-### 2、插件汉化
+### 2、插件漢化
 
-以RDP插件为例，完整的插件路径可能是如下所示：
+以RDP插件為例，完整的插件路徑可能是如下所示：
 
 ~/Library/Application Support/Royal TSX/Plugins/Installed/1c919170-3ee3-437f-9326-a2316a9293a0.plugin/Contents/Resources
 
-其中“Resources”文件夹下的“en.lproj”就代表的是英文语言包。我们需要创建“zh_Hans.lproj”所对应的中文语言包。
+其中「Resources」文件夾下的「en.lproj」就代表的是英文語言包。我們需要創建「zh_Hans.lproj」所對應的中文語言包。
 
-|              插件名称               | 路径（可能并不准确）                                         |
+|              插件名稱               | 路徑（可能並不準確）                                         |
 | :---------------------------------: | ------------------------------------------------------------ |
 |                 RDP                 | ~/Library/Application Support/Royal TSX/Plugins/Installed/1c919170-3ee3-437f-9326-a2316a9293a0.plugin/Contents/Resources |
 |            File Transfer            | ~/Library/Application Support/Royal TSX/Plugins/Installed/3e63afa6-61f6-4f9f-85bf-a773ab0408b0.plugin/Contents/Resources |
@@ -40,29 +42,29 @@ Royal_TSX的简体中文汉化包，适用于macOS系统。汉化过程中，以
 |       VNC (based on Chicken)        | ~/Library/Application Support/Royal TSX/Plugins/Installed/dfd69050-9897-11e1-a8b0-0800200c9a66.plugin/Contents/Resources |
 |          Terminal Services          | ~/Library/Application Support/Royal TSX/Plugins/Installed/ecda13f4-a5b5-4791-a027-b947008c943f.plugin/Contents/Resources |
 
-1. 找到插件所在的资源文件。
-2. 复制本目录“Plugins”下面所对应的插件汉化文件夹到对应插件资源文件夹下。
-3. 重启Royal TSX 程序即可。
+1. 找到插件所在的資源文件。
+2. 複製本目錄「Plugins」下面所對應的插件漢化文件夾到對應插件資源文件夾下。
+3. 重啓Royal TSX 程序即可。
 
-### 3、插件中心汉化
+### 3、插件中心漢化
 
-1. 使用finder（访达）打开应用程序文件夹，找到Royal TSX 应用。
-2. 在Royal TSX 应用图标上面点击右键，点击“显示包内容”。
-3. 依次进入“Contents”>“Resources”>"PluginGallery"文件夹。
-4. 把cn.lproj文件夹复制进来，然后替换index.html和js文件夹下的pluginGallery.js
+1. 使用finder（訪達）打開應用程序文件夾，找到Royal TSX 應用。
+2. 在Royal TSX 應用圖標上面點擊右鍵，點擊「顯示包內容」。
+3. 依次進入「Contents」>「Resources」>"PluginGallery"文件夾。
+4. 把cn.lproj文件夾複製進來，然後替換index.html和js文件夾下的pluginGallery.js
 
-## 三、更新日志
+## 三、更新日誌
 
-2022-02-23 更新日志
+2022-02-23 更新日誌
 
-V5.0.6.1000版本适配
+V5.0.6.1000版本適配
 
-2021-06-15 更新日志
+2021-06-15 更新日誌
 
-1. V5.0.0.1000版本适配
+1. V5.0.0.1000版本適配
 
-2. 插件中心和插件汉化
+2. 插件中心和插件漢化
 
-2020-11-18  更新日志
+2020-11-18  更新日誌
 
-V4.3.6 版本适配
+V4.3.6 版本適配
