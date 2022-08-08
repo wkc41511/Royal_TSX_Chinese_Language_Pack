@@ -1,4 +1,4 @@
-# Royal_TSX_Chinese_Language_Pack
+# Royal_TSX_Traditional_Chinese_Language_Pack.
 Royal_TSX的繁體中文漢化包，適用於macOS系統。漢化過程中，以谷歌漢化為主，真人漢化為輔，如有漢化不準確的地方，歡迎大家提出改正。
 
 目前是Clone過來之後轉繁體，後面有空會修正為繁體習慣用語。
